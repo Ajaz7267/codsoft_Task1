@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+#Topheader{
+    background: linear-gradient(90deg, rgba(255, 141, 0, 1) 0%, rgba(248, 87, 200, 1) 64%);
+    width: 100%;
+    height: 55px; 
+    
+}
+#Wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;  
+    margin: auto;
+}
+#social_link{
+    width: 30%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+#social_link>a{
+    color: white;
+    border-left: 2px solid white;
+    padding-left: 10px;
+    padding-top: 15px;
+    font-size: 19px;
+}
+#contact_details{
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    margin-right: 160px;
+    width: 30%;
+}
+#contact_details>p{
+    color: white;
+    margin-top: 15px;
+}
+#contact_details>p>span{
+    padding-left: 10px;
+}
+#Contact_Btn{
+    text-align: center;
+    margin-top: 6px;
+    margin-right: 150px;
+    border-radius: 40px;
+    border: 2px solid white;
+    background: none;
+    padding: 8px;
+}
+#Contact_Btn>a{
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+}
+#Contact_Btn:hover{
+    background: black;
+    transition: 1s;
+    border-color: black;
+}
+
+/* Header */
+#Header{
+    width: 100%;
+    height: auto;
+}
+#InnerHeader{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    /* padding-top: 10px; */
+
+}
+.Logoimage{
+    width:  250px;
+    height: 60px;
+    overflow: none;
+    padding-left: 50px;
+    padding-top: 10px;
+    /* border: 1px solid black; */
+}
+#menu{
+    display: flex;
+    /* align-items: center; */
+    /* gap: 10px; */
+    padding-right: 50px;
+    
+}
+#menu>div>a{
+    color: black;
+    text-decoration: none; 
+    font-size: 16px;
+    font-weight: 600;
+}
+#menu>div{
+    line-height: 20px;
+    padding: 25px 8px 0px 8px ;
+    transition: 1s;
+    cursor: pointer;
+}
+#menu>div:hover{
+    background-color: rgb(247, 212, 39);
+    transition: 1s;
+}
+#Search{
+    cursor: pointer;
+    padding-right: 90px;
+}
+
+.fa-magnifying-glass{
+    color: rgb(0, 0, 0);
+    padding: 25px 8px 33px 8px;
+}
+.fa-magnifying-glass:hover{
+    color: white;
+    background-color: black;
+    transition: 1s;
+}
+#Banner-Section{
+    position: relative; 
+    height: 630px;
+    width: 100%;
+    display: flex;
+    /* margin-bottom: 90px; */
+
+}
+#Banner-Section::before{
+    content: "";
+    background:rgba(0,0,0,0.6) url('./background\ Image1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    position: absolute;
+    height: 630px;
+    width: 100%;
+    display: flex;
+    opacity: 0.85;
+
+}
+
+#Company_motive{
+    background: linear-gradient(20deg, rgba(255, 141, 0, 1) 0%, rgba(248, 87, 200, 1) 64%);
+    height: 190px;
+    padding-top: 100px;
+    margin-top: 190px;
+    width: 5px;
+    margin-left:150px; 
+    padding-left: 7px;
+    border-radius: 7px;
+    position: relative;
+}
+#Company_Details{
+    padding-top: 190px;
+    padding-left: 20px;
+}
+#Ban_Heading{
+    letter-spacing: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    color: #ffffff; 
+    opacity: 0.8;
+}
+
+#Company_Details>h2{
+    letter-spacing: 3px;
+    font-size: 40px;
+    line-height: 10px;
+    position: relative;
+    color: #ffffff; 
+    opacity: 0.8;
+}
+
+.Read_btn{
+    padding: 20px 39px 20px 39px;
+    border-radius: 50px;
+    background: linear-gradient(60deg, rgba(255, 141, 0, 1) 0%, rgba(248, 87, 200, 1) 54%);
+    border: none;
+    font-size: 20px;
+    color: white;
+    position: relative;
+
+}
+.Read_btn:hover{
+    background: black;
+    cursor: pointer;
+    transition: 0.8s;
+}
+.Request_btn{
+    border:3px solid white;
+    background: transparent;
+    padding: 18px 39px 18px 39px;
+    border-radius: 50px;
+    position: relative;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 20px;
+    color: #ffffff;
+}
+.Request_btn:hover{
+    background: black;
+    color: white;
+    border-color: #020202;
+    cursor: pointer;
+    transition: 0.8s;
+}
+#round_circle{
+    margin-top: 280px;
+    margin-left: 580px;
+    position: relative;
+}
+.circle{
+    background: black;
+    border-radius: 50%;
+    padding: 10px;
+    margin-top: 10px;
+}
+.circle:hover{
+    background: linear-gradient(60deg, rgba(255, 141, 0, 1) 0%, rgba(248, 87, 200, 1) 54%);
+    border-radius: 50%;
+    padding: 10px;
+    margin-top: 10px;
+}
+ /* Middle-Company-Promotion-details */
+#Promo_Details{
+    width: 100%;
+    height: 300px;
+    align-items: center;
+    background: linear-gradient(90deg, rgb(255, 149, 19) 20%, rgba(248, 87, 200, 1) 54%);
+}
+#Promo_Details_inside{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+}
+#Promo_Details_inside>div{
+    width: 30%;
+    padding: 15px;
+}
+.fa-rocket,.fa-headphones,.fa-clock{
+    color: white;
+    /* width: 30px;  */
+    border:1px solid rgb(236, 236, 236);
+    padding: 10px;
+    border-radius: 50%;
+}
+.fa-headphones:hover{
+    border: 1px solid black;
+    color: #020202;
+    cursor: pointer;
+    transition: 1s;
+}
+.fa-rocket:hover{
+    border: 1px solid black;
+    color: #020202;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.fa-clock:hover{
+    border: 1px solid black;
+    color: #020202;
+    cursor: pointer;
+    transition: 1s;
+}
+.Promo_heading{
+    color: white;
+    font-size: 25px;
+    padding-left: 40px;
+    opacity: 0.8;
+}
+.Promo_heading:hover{
+    color: #020202;
+    cursor: pointer;
+    transition: 1s;
+}
+.paragraph{
+    color: #ffffff;
+    font-size: 16px;
+}
+#ABOUT_US{
+    position: relative; 
+    height: auto;
+    
+}
+#ABOUT_US::before{
+    content: "";
+    width: 100%;
+    height: 850px;
+    background:rgba(255, 255, 255, 0.4) url(worldmap3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: darken;
+    position: absolute;
+}
+#inner_section_about,h1,span,h3,p,button{
+    position: relative;
+}
+#ABOUT_US_SECTION{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 850px;
+}
+.read_more_btn{
+    padding: 20px 39px 20px 39px;
+    border-radius: 50px;
+    background: linear-gradient(60deg, rgba(255, 141, 0, 1) 0%, rgba(248, 87, 200, 1) 54%);
+    border: none;
+    font-size: 20px;
+    color: white;
+}
+.read_more_btn:hover{
+    background: black;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#Box_Office{
+    position: relative;
+    border-left: 4px;
+    border-bottom: 4px;
+    border-top: 0px;
+    border-right: 4px;
+    width: 400px;
+    padding-top: 60px;
+    border-style: solid;
+    border-image: linear-gradient(to right, rgba(255, 141, 0, 1) 0%, rgba(248, 87, 200, 1)) 1;
+    margin-top: -70px;
+}
+.Office_boy{
+    position: relative;
+    height: 360px;
+    padding-left: 80px;
+}
+.Underline{
+    background: linear-gradient(90deg, rgba(255, 141, 0, 1) 0%, rgba(248, 87, 200, 1) 64%);
+    position: relative;
+    border-radius: 7px;
+    width: 80px;
+    height: 4px;
+    margin-left: 0px;
+}
+
+/*-------------------------- OUR_SERVICES------------------------- */
+#Our_Services{
+    position: relative; 
+    height: 630px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+#Our_Services::before{
+    content: "";
+    width: 100%;
+    height: 850px;
+    background:rgba(199, 199, 247, 0.4) url(worldmap3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: darken;
+    position: absolute;
+}
+.Underline_Our_Service{
+    background: linear-gradient(90deg, rgba(255, 141, 0, 1) 0%, rgba(248, 87, 200, 1) 64%);
+    position: relative;
+    border-radius: 7px;
+    width: 90px;
+    height: 4px;
+    margin-left: 0px;
+}
+#Our_Service_Inner{
+    width: 80%;
+    position: relative;
+    margin: auto;
+    padding-top: 90px;
+    padding-left: 70px;
+    
+}
+#Our_Section_Inner{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+#Our_Section_Inner>img{
+    width: 350px;
+    height: 250px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius:7px;
+}
+#Our_Service_Btn{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: -30px;
+}
+.fa-bullhorn{
+    border-radius: 50%;
+    padding: 22px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    color: white;
+    margin-right: 10px;
+    background: linear-gradient(90deg, rgba(255, 141, 0, 1) 0%, rgba(248, 87, 200, 1) 64%); 
+}
+.fa-crop-simple{
+    border-radius: 50%;
+    padding: 22px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    color: white;
+    margin-right: 10px;
+    background: linear-gradient(90deg, rgba(255, 141, 0, 1) 0%, rgba(248, 87, 200, 1) 64%);
+}
+.fa-dollar-sign{
+    border-radius: 50%;
+    padding: 22px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    font-size: 22px;
+    color: white;
+    margin-right: 10px;
+    background: linear-gradient(90deg, rgba(255, 141, 0, 1) 0%, rgba(248, 87, 200, 1) 64%);
+}
+.btn1{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 0px 39px 0px 0px;
+    border: none;
+    margin-left: 80px;
+    font-size: 20px;
+    cursor: pointer;
+    background: white;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    font-weight: 700;
+}
+.btn2{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 0px 43px 0px 0px;
+    border: none;
+    background: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: -120px;
+    cursor: pointer;
+}
+.btn3{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 0px 43px 0px 0px;
+    border: none;
+    background: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: -90px;
+    cursor: pointer;
+}
